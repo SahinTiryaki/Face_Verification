@@ -14,7 +14,7 @@
 
 
 ## Description
-I use pre-trained FaceNet network that is Siamese Network. After getting pre-processed face image, FaceNet extract 128x1 dimensional feature vector called embedding. After pre-process the incoming image and extract the embedding, we compare the embedding of incoming images . If I the threshold value is exceeded , I label the user is the correct person and verification is successful.
+I use pre-trained FaceNet network that is Siamese Network. After getting pre-processed face image, FaceNet extract 128x1 dimensional feature vector called embedding. After pre-process the incoming image and extract the embedding, I compare the embedding of incoming images . If I the threshold value is exceeded , I label the user is the correct person and verification is successful.
 
 ## Dependencies
 
