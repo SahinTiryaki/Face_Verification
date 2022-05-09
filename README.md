@@ -36,6 +36,6 @@ python app.py
 ### Docker
 ```
 sudo docker build --tag face-verification .
-sudo docker run -it -t 8080:8080 --name face-verify --restart always  face-verification 
+sudo docker run -it -d -p 8080:8080 --name face-verify --restart always  face-verification 
 
 ```
