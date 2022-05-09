@@ -45,7 +45,7 @@ def getEmbedding(face_pixels):
         embedding = facenet_model.predict(samples)
         return embedding
 # it compares 2 list with size 128 and returns 1 they are same people else 0
-def is_match(known_embedding, candidate_embedding, thresh=0.3):
+def is_match(known_embedding, candidate_embedding, thresh=0.5):
         # calculate distance between embeddings
         score = cosine(known_embedding, candidate_embedding)
 

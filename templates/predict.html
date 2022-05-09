@@ -8,13 +8,13 @@
     {% if img1 %}
         <div  class="col-md-5">
             <span>Known image</span>
-            <img width="100%" src="{{url_for('static', filename='known_img.png')}}" alt="image not found">
+            <img width="100%"  height="500px" src="{{url_for('static', filename='known_img.png')}}" alt="image not found">
         </div>
     {% endif  %}
     {% if img2 %}
     <div class="col-md-5">
         <span>Candicate image</span>
-        <img width = "100%" src="{{url_for('static', filename='candicate_img.png')}}" alt="image not found">
+        <img width = "100%"  height="500px" src="{{url_for('static', filename='candicate_img.png')}}" alt="image not found">
     </div>
 {% endif  %}
     </div>
