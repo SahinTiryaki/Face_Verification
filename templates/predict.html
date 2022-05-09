@@ -1,0 +1,26 @@
+{% extends 'index.html' %}
+
+{% block content %}
+<div style="text-align: center;" class="container">
+    <p>{{msg}}</p>
+
+    <div class="row">
+    {% if img1 %}
+        <div  class="col-md-5">
+            <span>Known image</span>
+            <img width="100%" src="{{url_for('static', filename='known_img.png')}}" alt="image not found">
+        </div>
+    {% endif  %}
+    {% if img2 %}
+    <div class="col-md-5">
+        <span>Candicate image</span>
+        <img width = "100%" src="{{url_for('static', filename='candicate_img.png')}}" alt="image not found">
+    </div>
+{% endif  %}
+    </div>
+    
+</div>
+<br>
+<br>
+
+{% endblock content %}
