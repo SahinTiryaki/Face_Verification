@@ -22,6 +22,7 @@ I use pre-trained FaceNet network that is Siamese Network. After getting pre-pro
 <li> mediapipe==0.8.9</li>
 <li>opencv-python==4.5</li>
 <li>tensorflow==2.7.0 </li>
+<li>flask</li>
 
 ## How to run?
 ### Conda
